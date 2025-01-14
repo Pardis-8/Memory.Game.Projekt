@@ -6,4 +6,6 @@ module org.example.memory_game_projekt {
 
     opens org.example.memory_game_projekt to javafx.fxml;
     exports org.example.memory_game_projekt;
+    exports org.example.Memory.Projekt;
+    opens org.example.Memory.Projekt to javafx.fxml;
 }
